@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1,
+      maximum-scale=1"
+      />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+      />
+    <link
+      rel="stylesheet"
+      href="style.css"
+      />
+
+    <!-- Demo styles -->
+    <style>
+      .swiper {
+        width: 870px;
+        height:  350px;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        border-radius: 10px !important;
+      }
+
+      .swiper-slide img {
+        display: block;
+        height: 100%;
+        object-fit: cover;
+      }
+      #next-slide{
+        height: 71.5px;
+        width: 71.5px;
+        position:absolute;
+        right: 132px;
+        top:165px;
+      }
+      #prev-slide{
+        height: 71.5px;
+        width: 71.5px;
+        position:absolute;
+        left: 9.16vw;
+        top:165px;
+        transform: scale(-1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="discount">
+              <div class="inner-discount">50%</div>
+            </div>
+            <div class="card-image">
+              <img src="assets\images\unsplash_MqT0asuoIcU.png"
+                alt="home-made-pizza" height=250px width=270px>
+            </div>
+            <div class="card-caption">
+              <div class="item-name">
+                Home made pizza
+              </div>
+              <div class="item-price">
+                ₹190
+              </div>
+              <div class="rating">
+                <div class="rating-star">
+                  <img src="assets\icons\star.svg" alt="" height=12px
+                    width=12px>
+                </div>
+                <div class="rating-number">
+                  4.7
+                </div>
+              </div>
+              <div class="time-shadow">
+                <div class="time">
+                  <div class="inner-time">50-79 min</div>
+                </div>
+              </div>
+              <div class="add">
+                <img class="plus" src="assets\icons\plus.svg" alt="plus"
+                  height=20px width=22px>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="discount">
+              <div class="inner-discount">50%</div>
+            </div>
+            <div class="card-image">
+              <img src="assets\images\unsplash_MqT0asuoIcU.png"
+                alt="home-made-pizza" height=250px width=270px>
+            </div>
+            <div class="card-caption">
+              <div class="item-name">
+                Home made pizza
+              </div>
+              <div class="item-price">
+                ₹190
+              </div>
+              <div class="rating">
+                <div class="rating-star">
+                  <img src="assets\icons\star.svg" alt="" height=12px
+                    width=12px>
+                </div>
+                <div class="rating-number">
+                  4.7
+                </div>
+              </div>
+              <div class="time-shadow">
+                <div class="time">
+                  <div class="inner-time">50-79 min</div>
+                </div>
+              </div>
+              <div class="add">
+                <img class="plus" src="assets\icons\plus.svg" alt="plus"
+                  height=20px width=22px>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="discount">
+              <div class="inner-discount">50%</div>
+            </div>
+            <div class="card-image">
+              <img src="assets\images\unsplash_MqT0asuoIcU.png"
+                alt="home-made-pizza" height=250px width=270px>
+            </div>
+            <div class="card-caption">
+              <div class="item-name">
+                Home made pizza
+              </div>
+              <div class="item-price">
+                ₹190
+              </div>
+              <div class="rating">
+                <div class="rating-star">
+                  <img src="assets\icons\star.svg" alt="" height=12px
+                    width=12px>
+                </div>
+                <div class="rating-number">
+                  4.7
+                </div>
+              </div>
+              <div class="time-shadow">
+                <div class="time">
+                  <div class="inner-time">50-79 min</div>
+                </div>
+              </div>
+              <div class="add">
+                <img class="plus" src="assets\icons\plus.svg" alt="plus"
+                  height=20px width=22px>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="discount">
+              <div class="inner-discount">50%</div>
+            </div>
+            <div class="card-image">
+              <img src="assets\images\unsplash_MqT0asuoIcU.png"
+                alt="home-made-pizza" height=250px width=270px>
+            </div>
+            <div class="card-caption">
+              <div class="item-name">
+                Home made pizza
+              </div>
+              <div class="item-price">
+                ₹190
+              </div>
+              <div class="rating">
+                <div class="rating-star">
+                  <img src="assets\icons\star.svg" alt="" height=12px
+                    width=12px>
+                </div>
+                <div class="rating-number">
+                  4.7
+                </div>
+              </div>
+              <div class="time-shadow">
+                <div class="time">
+                  <div class="inner-time">50-79 min</div>
+                </div>
+              </div>
+              <div class="add">
+                <img class="plus" src="assets\icons\plus.svg" alt="plus"
+                  height=20px width=22px>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="discount">
+              <div class="inner-discount">50%</div>
+            </div>
+            <div class="card-image">
+              <img src="assets\images\unsplash_MqT0asuoIcU.png"
+                alt="home-made-pizza" height=250px width=270px>
+            </div>
+            <div class="card-caption">
+              <div class="item-name">
+                Home made pizza
+              </div>
+              <div class="item-price">
+                ₹190
+              </div>
+              <div class="rating">
+                <div class="rating-star">
+                  <img src="assets\icons\star.svg" alt="" height=12px
+                    width=12px>
+                </div>
+                <div class="rating-number">
+                  4.7
+                </div>
+              </div>
+              <div class="time-shadow">
+                <div class="time">
+                  <div class="inner-time">50-79 min</div>
+                </div>
+              </div>
+              <div class="add">
+                <img class="plus" src="assets\icons\plus.svg" alt="plus"
+                  height=20px width=22px>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="discount">
+              <div class="inner-discount">50%</div>
+            </div>
+            <div class="card-image">
+              <img src="assets\images\unsplash_MqT0asuoIcU.png"
+                alt="home-made-pizza" height=250px width=270px>
+            </div>
+            <div class="card-caption">
+              <div class="item-name">
+                Home made pizza
+              </div>
+              <div class="item-price">
+                ₹190
+              </div>
+              <div class="rating">
+                <div class="rating-star">
+                  <img src="assets\icons\star.svg" alt="" height=12px
+                    width=12px>
+                </div>
+                <div class="rating-number">
+                  4.7
+                </div>
+              </div>
+              <div class="time-shadow">
+                <div class="time">
+                  <div class="inner-time">50-79 min</div>
+                </div>
+              </div>
+              <div class="add">
+                <img class="plus" src="assets\icons\plus.svg" alt="plus"
+                  height=20px width=22px>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="discount">
+              <div class="inner-discount">50%</div>
+            </div>
+            <div class="card-image">
+              <img src="assets\images\unsplash_MqT0asuoIcU.png"
+                alt="home-made-pizza" height=250px width=270px>
+            </div>
+            <div class="card-caption">
+              <div class="item-name">
+                Home made pizza
+              </div>
+              <div class="item-price">
+                ₹190
+              </div>
+              <div class="rating">
+                <div class="rating-star">
+                  <img src="assets\icons\star.svg" alt="" height=12px
+                    width=12px>
+                </div>
+                <div class="rating-number">
+                  4.7
+                </div>
+              </div>
+              <div class="time-shadow">
+                <div class="time">
+                  <div class="inner-time">50-79 min</div>
+                </div>
+              </div>
+              <div class="add">
+                <img class="plus" src="assets\icons\plus.svg" alt="plus"
+                  height=20px width=22px>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="discount">
+              <div class="inner-discount">50%</div>
+            </div>
+            <div class="card-image">
+              <img src="assets\images\unsplash_MqT0asuoIcU.png"
+                alt="home-made-pizza" height=250px width=270px>
+            </div>
+            <div class="card-caption">
+              <div class="item-name">
+                Home made pizza
+              </div>
+              <div class="item-price">
+                ₹190
+              </div>
+              <div class="rating">
+                <div class="rating-star">
+                  <img src="assets\icons\star.svg" alt="" height=12px
+                    width=12px>
+                </div>
+                <div class="rating-number">
+                  4.7
+                </div>
+              </div>
+              <div class="time-shadow">
+                <div class="time">
+                  <div class="inner-time">50-79 min</div>
+                </div>
+              </div>
+              <div class="add">
+                <img class="plus" src="assets\icons\plus.svg" alt="plus"
+                  height=20px width=22px>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="discount">
+              <div class="inner-discount">50%</div>
+            </div>
+            <div class="card-image">
+              <img src="assets\images\unsplash_MqT0asuoIcU.png"
+                alt="home-made-pizza" height=250px width=270px>
+            </div>
+            <div class="card-caption">
+              <div class="item-name">
+                Home made pizza
+              </div>
+              <div class="item-price">
+                ₹190
+              </div>
+              <div class="rating">
+                <div class="rating-star">
+                  <img src="assets\icons\star.svg" alt="" height=12px
+                    width=12px>
+                </div>
+                <div class="rating-number">
+                  4.7
+                </div>
+              </div>
+              <div class="time-shadow">
+                <div class="time">
+                  <div class="inner-time">50-79 min</div>
+                </div>
+              </div>
+              <div class="add">
+                <img class="plus" src="assets\icons\plus.svg" alt="plus"
+                  height=20px width=22px>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <img class="swiper-button-next" src="assets\icons\play.svg" alt=""
+      id="next-slide">
+    <img class="swiper-button-prev" src="assets\icons\play.svg" alt=""
+      id="prev-slide">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
+
+
+
+<div class="modal" id="modal">
+  <div class="modal-content" style="height:80% ;">
+    <svg><use href="assets/icons/Cart.svg" style="justify-content: center;
+        align-items:center"></use></svg>
+    <p class="modal-para1">Cart is Empty</p>
+    <P class="modal-para2">Add some items to the cart to checkout</P>
+    <div class="button-section"><button class="button close" id="close">Back to
+        Menu</button></div>
+  </div>
+</div>
